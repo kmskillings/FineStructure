@@ -339,7 +339,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c33d3ac96522b542894c3d8bb2dd43e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosionParticles: {fileID: 278826341112652252, guid: 3e57ef7ecf1be894ab419ce9572ee12f,
+  explosionParticles: {fileID: 5959500006690061807, guid: d21b3730e624f9b4bac1f71eed636e83,
     type: 3}
   debrisChunks:
   - {fileID: 6714089376477940058, guid: c96f6de655ecf934ca092e7879084eba, type: 3}
@@ -359,7 +359,7 @@ MonoBehaviour:
   - {x: -0.3, y: 0.3, z: -0.3}
   - {x: 0.3, y: -0.3, z: -0.3}
   - {x: -0.3, y: -0.3, z: -0.3}
-  explosionForce: 10000
+  explosionForce: 10
   transformSource: {fileID: 339770196}
   velocitySource: {fileID: 0}
 --- !u!1 &611066171

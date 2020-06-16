@@ -48,9 +48,12 @@ public class Exploder : MonoBehaviour
                 if (velocitySource != null)
                 {
                     chunkRigidBody.velocity = velocitySource.velocity;
+                    chunkRigidBody.angularVelocity = velocitySource.angularVelocity;
                 }
 
-                chunkRigidBody.AddExplosionForce(explosionForce, transformSource.position, 100);
+                chunkRigidBody.velocity += (chunk.transform.position - transformSource.position).normalized * explosionForce;
+                chunkRigidBody.angularVelocity += Random.insideUnitSphere;
+                //chunkRigidBody.AddExplosionForce(explosionForce * 100, transformSource.position, 0);
             }
         }
 
